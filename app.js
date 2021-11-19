@@ -19,11 +19,8 @@ function decrementNum(){
 function saveNum(){
     let save=count+" - ";
     paragraph.textContent+=save;
-    count=0;
 }
-// function clearNum(){
-    
-// }
-
-
-
+function clearNum(){
+    count=0;
+    title.textContent=count;
+}
