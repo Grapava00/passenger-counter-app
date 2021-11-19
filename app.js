@@ -7,7 +7,7 @@ let paragraph=document.querySelector("p");
 let count=0;
 
 function incrementNum(){
-    count++;
+   count++;
     title.textContent=count;
 }
 
@@ -22,7 +22,7 @@ function saveNum(){
     count=0;
 }
 // function clearNum(){
-     
+    
 // }
 
 

@@ -27,10 +27,17 @@ span{
     transform: translateX(-50%);
     font-size: 30px;
 }
-.increment-btn{
-    position: absolute;
+.increment-btn-position{
+    position: absolute; 
     top:50%;
     left:50%;
+}
+.decrement-btn-position{
+    position: absolute;
+    top:65%;
+    left:50%;
+}
+.common-style-incr-decr{
     transform: translateX(-50%);
     max-width:150px;
     width:100%;
@@ -39,45 +46,26 @@ span{
     cursor: pointer;
     border-bottom: 1px solid black;
     color:black;
-
 }
-.decrement-btn{
-    position: absolute;
-    top:65%;
-    left:50%;
-    transform: translateX(-50%);
-    max-width:150px;
-    width:100%;
-    border: none;
-    padding: 3px;
-    cursor: pointer;
-    border-top: 1px solid black;
-    color:black
-}
-.save-btn{
+.save-btn-position{
     position: absolute;
     top:58%;
     left:85%;
-    transform: translateX(-50%);
-    max-width: 60px;
-    width:100%;
-    border: none;
-    padding:3px;
-    cursor: pointer;
     background-color: darkgreen;
-    color:white;
 }
-.clear-btn{
+.clear-btn-position{
     position: absolute;
     top:58%;
     left: 15%;
+    background-color:red;
+}
+.common-style-clear-save{
     transform: translateX(-50%);
     max-width: 60px;
     width:100%;
     border: none;
     padding:3px;
     cursor: pointer;
-    background-color:red;
     color:white;
 }
 p{
