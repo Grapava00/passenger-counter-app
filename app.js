@@ -11,9 +11,19 @@ function incrementNum(){
     title.textContent=count;
 }
 
+function decrementNum(){
+    count--;
+    title.textContent=count;
+}
+
 function saveNum(){
-    let save=count+" - "
+    let save=count+" - ";
     paragraph.textContent+=save;
     count=0;
 }
+// function clearNum(){
+     
+// }
+
+
 

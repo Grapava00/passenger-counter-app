@@ -37,21 +37,47 @@ span{
     border: none;
     padding: 3px;
     cursor: pointer;
-    background-color:darkred;
-    color:white;
+    border-bottom: 1px solid black;
+    color:black;
 
+}
+.decrement-btn{
+    position: absolute;
+    top:65%;
+    left:50%;
+    transform: translateX(-50%);
+    max-width:150px;
+    width:100%;
+    border: none;
+    padding: 3px;
+    cursor: pointer;
+    border-top: 1px solid black;
+    color:black
 }
 .save-btn{
     position: absolute;
-    top:65%;
-    left: 50%;
+    top:58%;
+    left:85%;
     transform: translateX(-50%);
-    max-width: 150px;
+    max-width: 60px;
     width:100%;
     border: none;
     padding:3px;
     cursor: pointer;
     background-color: darkgreen;
+    color:white;
+}
+.clear-btn{
+    position: absolute;
+    top:58%;
+    left: 15%;
+    transform: translateX(-50%);
+    max-width: 60px;
+    width:100%;
+    border: none;
+    padding:3px;
+    cursor: pointer;
+    background-color:red;
     color:white;
 }
 p{
