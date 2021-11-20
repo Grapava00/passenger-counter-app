@@ -1,4 +1,4 @@
 {
-    "editor.defaultFormatter": "vscode.css-language-features",
-    "editor.formatOnPaste": true
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "vscode.typescript-language-features"
 }
